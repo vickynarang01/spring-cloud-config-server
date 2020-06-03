@@ -1,0 +1,5 @@
+my:
+ greeting: Hello Spring Server
+ list:
+  values: One, Two
+
