@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "6b6de55b-1a58-4375-aa57-99f23696db58",
+		"name": "Spring-Study",
+		"description": "This request can be used on Spring Cloud Client with @RefereshScope enabled, so that once the Spring Server has made changes in the configuration that will get reflected as soon as you hit this request.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/actuator/refresh",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/actuator/refresh",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"actuator",
+						"refresh"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
